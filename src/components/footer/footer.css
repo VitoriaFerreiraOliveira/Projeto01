@@ -4,6 +4,7 @@
     background-color: #ca0303;
     color: white;
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;

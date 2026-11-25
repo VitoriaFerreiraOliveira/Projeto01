@@ -173,3 +173,132 @@
   height: auto;
   width: 300px;
 }
+
+.pagina-receitas {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #faf6f0;
+    border-radius: 12px;
+}
+
+.pagina-receitas h1 {
+    text-align: center;
+    color: #4a2c18;
+    margin-bottom: 30px;
+    font-size: 32px;
+    border-bottom: 2px solid #d6c5b3;
+    padding-bottom: 12px;
+}
+
+.conteiner-receita {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.wrap-receita {
+    background: #fffdf9;
+    border: 1px solid #d6c5b3;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 3px 8px rgba(74, 44, 24, 0.08);
+}
+
+.wrap-receita img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #e6d8c8;
+}
+
+.wrap-receita h3 {
+    margin: 14px 0;
+    font-size: 18px;
+    color: #3e2312;
+}
+
+.wrap-receita a {
+    display: block;
+    text-align: center;
+    background: #6f4225;
+    color: #fffdf9;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wrap-receita a:hover {
+    background: #522f18;
+}
+
+.detalhe-receita {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #faf6f0;
+    border: 1px solid #d6c5b3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(74, 44, 24, 0.08);
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #6f4225;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-voltar:hover {
+    text-decoration: underline;
+}
+
+.detalhe-receita h1 {
+    color: #4a2c18;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d6c5b3;
+    padding-bottom: 10px;
+}
+
+.detalhe-receita img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #d6c5b3;
+    margin-bottom: 22px;
+}
+
+.detalhe-receita ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.detalhe-receita li {
+    background: #fffdf9;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #e6d8c8;
+    line-height: 1.5;
+    color: #3e2312;
+}
+
+.detalhe-receita strong {
+    color: #6f4225;
+}
